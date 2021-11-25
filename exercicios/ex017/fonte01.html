@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            in = polegada
+            pt = ponto
+            pc = 'paica'
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            em = relativo ao 'M'/ relativo a altura atual
+            ex = relativo a altura 'x'
+            rem = relativo ao root
+            vw = 'view width'/ relativo a largura da viewport
+            vh = 'view hight'/ ''   ''  ''  altura ''
+
+            16px =geralmente= 1em
+
+            */
+            font-size: 1em;
+            /*
+             lighter normal bold bolder
+            100 - 900/ 400 = normal*/
+            font-weight: normal;
+            /*
+            normal italic
+            */
+            font-style: normal;
+            /*
+            sublinhado
+            */
+            text-decoration: underline;
+        }
+        h1 {/*
+                    shorthand font
+            -font-style > font-weight > font-size > font-family
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus explicabo accusamus quidem, in mollitia atque laborum est perspiciatis, cumque ipsam veritatis consequatur sequi autem, excepturi animi molestiae veniam quaerat suscipit? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati similique architecto perferendis odio, labore recusandae. Reiciendis, voluptatum laudantium praesentium, quae laborum alias beatae exercitationem voluptatibus dolores aspernatur eaque ducimus quisquam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eligendi distinctio nesciunt quisquam cupiditate, perferendis dicta, animi delectus officia ipsam neque natus quis deleniti voluptate eaque ea veniam illo? Culpa?</p>
+
+    <h2>Subtítulo com texto</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate nisi eius modi voluptatum perferendis ipsa aut atque aspernatur provident hic id, velit dicta harum corrupti debitis repellendus ipsam illum!</p>
+</body>
+</html>

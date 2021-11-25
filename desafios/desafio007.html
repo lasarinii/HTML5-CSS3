@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="faviconhtml.ico" type="image/x-icon">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagen dinâmica</h1>
+    <p>Aumente e diminua a largura do seu navegador para ver os direntes tamanhos da imagem:</p>
+    <picture>
+        <source media="(miax-width: 758px)" srcset="imagens/paisagem-pp">
+        <source media="(max-width: 986px)" srcset="imagens/paisagem-p.jpg">
+        <source media="(max-width: 1250px)" srcset="imagens/paisagem-m.jpg">
+        <img src="imagens/paisagem-g.jpg" alt="#">
+    </picture>
+</body>
+</html>
